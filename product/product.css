@@ -192,6 +192,14 @@
   margin: 0;
 }
 
+
+.scroll-element {
+  width: 100%;
+  height: 750px;
+  overflow-y: scroll;
+}
+
+
 @-webkit-keyframes opacity {
   0%,
   100% {
