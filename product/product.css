@@ -129,7 +129,7 @@
  * Extra utilities
  */
 
-.content {
+/* .content {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -140,13 +140,35 @@
   font-size: 35px;
   line-height: 40px;
   color: #000;
+} */
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 160px;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  line-height: 40px;
+  color: #000;
 }
-.content__container {
+
+/* .content__container {
   font-weight: 600;
   overflow: hidden;
   height: 40px;
   padding: 0 40px;
+} */
+
+.content__container {
+  font-weight: 600;
+  overflow: hidden;
+  height: 100px;
+  padding: 0 100px;
 }
+
 /* .content__container:before {
   content: "[";
   left: 0;
@@ -170,11 +192,33 @@
   animation-duration: 2s;
   animation-iteration-count: infinite;
 } */
-.content__container__text {
+
+/* .content__container__text {
   display: inline;
   float: left;
   margin: 0;
+} */
+
+.content__container__text {
+  display: inline;
+  float: left;
+  margin: -28px;
+  margin-top: 30px;
 }
+
+/* .content__container__list {
+  margin-top: 0;
+  padding-left: 75px;
+  text-align: left;
+  list-style: none;
+  -webkit-animation-name: change;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: change;
+  animation-duration: 10s;
+  animations-iteration-count: infinite;
+} */
+
 .content__container__list {
   margin-top: 0;
   padding-left: 75px;
@@ -187,18 +231,22 @@
   animation-duration: 10s;
   animations-iteration-count: infinite;
 }
-.content__container__list__item {
+
+/* .content__container__list__item {
   line-height: 40px;
   margin: 0;
-}
+} */
 
+.content__container__list__item {
+  line-height: 100px;
+  margin: 0;
+}
 
 .scroll-element {
   width: 100%;
   height: 750px;
   overflow-y: scroll;
 }
-
 
 @-webkit-keyframes opacity {
   0%,
