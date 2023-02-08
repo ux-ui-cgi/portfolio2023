@@ -23,6 +23,9 @@
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
+.hidden-sm {
+  display: none !important;
+}
 
 .product-device {
   position: absolute;

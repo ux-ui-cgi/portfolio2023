@@ -81,6 +81,12 @@
   height: 100px;
 }
 
+@media (max-width: 900px) {
+  .hidden-sm {
+    display: none;
+  }
+}
+
 .hide {
   display: block;
 }
@@ -272,7 +278,7 @@
 
 @media (max-width: 900px) {
   .content__container {
-    font-weight: 600;
+    display: none;
     overflow: hidden;
     height: 40px;
     padding: 0 40px;
