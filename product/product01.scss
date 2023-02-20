@@ -467,6 +467,12 @@
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+.nav {
+  .active {
+    font-weight: bold;
+    // color: red;
+  }
+}
 img,
 svg {
   vertical-align: middle;
@@ -475,8 +481,8 @@ svg {
 
 video {
   object-fit: cover;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: 105%;
   /* background-image: url("https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg"); */
 }
 
